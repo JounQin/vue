@@ -137,16 +137,16 @@
   resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-1.1.0.tgz#964a2a0ca86e97378df01f6882d1825aa8f13827"
   integrity sha512-a5AovtABih6h1i2ryG67UybpkqWWoGHFRW2IzAJMMtatu9XXMoOHD6T8ZA5rbM/Pl1ZdgvPe/ExPzf5gQe939g==
 
-"@1stg/tslint-config@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-1.2.0.tgz#a60e8734b561ea01310f27daa3abe13052102817"
-  integrity sha512-MKSvpm94RTcHf1oZRfobRVA34HxPZN0tZ+6KMWyaaz336KUrti8InCwJyx2UzB2eoKdexk87wnjkLh9qIhKsXg==
+"@1stg/tslint-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-2.0.0.tgz#36ccd4e5fb68c804fba69af27f860dbafa3865e3"
+  integrity sha512-efdnae+fz3bJAvpI8csBLO/TqkGzzsVlw1+hx5jChOCefJRpqUiDk2lQp2dQrK3mg55lRG/W3RcYB5zQy1w9yA==
   dependencies:
     "@rxts/rxjs-tslint" "^0.2.1"
-    codelyzer "^6.0.1"
-    ng-tslint "^1.1.0"
+    codelyzer "^6.0.2"
+    ng-tslint "^1.1.1"
     tslint-angular "^3.0.3"
-    tslint-config-eslint "^0.5.2"
+    tslint-config-eslint "^0.6.2"
     tslint-config-prettier "^1.18.0"
     tslint-plugin-prettier "^3.0.0-beta.0"
     tslint-react "^5.0.0"
@@ -4909,10 +4909,10 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codelyzer@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-6.0.1.tgz#c0e9668e847255b37c759e68fb2700b11e277d0f"
-  integrity sha512-cOyGQgMdhnRYtW2xrJUNrNYDjEgwQ+BrE2y93Bwz3h4DJ6vJRLfupemU5N3pbYsUlBHJf0u1j1UGk+NLW4d97g==
+codelyzer@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-6.0.2.tgz#25d72eae641e8ff13ffd7d99b27c9c7ad5d7e135"
+  integrity sha512-v3+E0Ucu2xWJMOJ2fA/q9pDT/hlxHftHGPUay1/1cTgyPV5JTHFdO9hqo837Sx2s9vKBMTt5gO+lhF95PO6J+g==
   dependencies:
     "@angular/compiler" "9.0.0"
     "@angular/core" "9.0.0"
@@ -9429,12 +9429,13 @@ neo-async@^2.6.0, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ng-tslint@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ng-tslint/-/ng-tslint-1.1.0.tgz#2625001bd044a4eb43b129989a7c0983a63e107c"
-  integrity sha512-TBjk314vivDyGRnaK3PlXMFpug4zNJvtZMJ8T1969Wj2p226mjb9EiEeSFZfgp9Aoxm4zCmDSU6+gxTtz3qoXQ==
+ng-tslint@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ng-tslint/-/ng-tslint-1.1.1.tgz#d02568bd167f330648d2f6ea54620369807f4ff5"
+  integrity sha512-D/EWTbqAc8N/RXSld25Vi670v5zf8szbdr9BjSQ0HjSn4A6zgaeIHyGrbPa/9HvJ7rvsrQgGBHgX0UcFqnX3rg==
   dependencies:
-    tslib "^2.0.3"
+    minimatch "^3.0.4"
+    tsutils "^3.21.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -13399,7 +13400,7 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-"tslib@1 || 2", tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0:
+"tslib@1 || 2", tslib@^2.0.0, tslib@^2.0.1, tslib@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
@@ -13414,10 +13415,10 @@ tslint-angular@^3.0.3:
   resolved "https://registry.yarnpkg.com/tslint-angular/-/tslint-angular-3.0.3.tgz#872d4fe36497d20582dbe4b8ed3338ff0c922c30"
   integrity sha512-5xD1gLE89lBExfSbMslDw/ZfOZM0t0CJsoJa4svsgF7tlwVS3IpXjzNcNRN0RZqDBj+cdTlbeel6GpZ3PqpPiw==
 
-tslint-config-eslint@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.5.2.tgz#c9c5c3442c3203bb5031b83c2c1bfacf1aeab3fe"
-  integrity sha512-ozsw7WWcOI7mk+dobiXY22qqCnZt6dX3X+Qe0khXjf1/nOO8jLYDx1Ha5/V4ZG9mA9fez79PAPaujkWQq9ci8w==
+tslint-config-eslint@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.6.2.tgz#5c5f3a4e732061e947f4718713b2fcf7b719ae07"
+  integrity sha512-hP0lVm04qx4yhJVr1OZD6GEjgGWf9oUirHQFLUzaCjUade5PkPaRJyKq8L62pBi3Mozboy6whEwrnTuhAOMXNg==
 
 tslint-config-prettier@^1.18.0:
   version "1.18.0"
@@ -13496,6 +13497,13 @@ tsutils@^2.25.0, tsutils@^2.29.0:
   version "2.29.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
   integrity sha512-g5JVHCIJwzfISaXpXE1qvNalca5Jwob6FjI4AoPlqMusJ6ftFE7IkkFoMhVLRgK+4Kx3gkzb8UZK5t5yTTvEmA==
+  dependencies:
+    tslib "^1.8.1"
+
+tsutils@^3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
+  integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
 
