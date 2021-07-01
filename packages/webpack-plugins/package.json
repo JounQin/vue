@@ -21,7 +21,7 @@
     "webpack-plugins"
   ],
   "peerDependencies": {
-    "webpack": ">=5.0.0"
+    "webpack": ">=5.41.1"
   },
   "publishConfig": {
     "access": "public"
